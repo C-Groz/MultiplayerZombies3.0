@@ -1,7 +1,7 @@
 var socket;
 
 function setup(){
-    socket = io.connect('https://cgrozzombies.herokuapp.com/');
+    socket = io('https://cgrozzombies.herokuapp.com/');
     connectedUsersData = [];
     currentBullets = [];
     enemiesData = [];
