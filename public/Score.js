@@ -9,7 +9,7 @@ class Score{
         this.ammoIn = currentGun.startingIn;
         this.reloading = false;
     }
-
+//
     drawScoreLayout(){
 
         if(killData[clientPlayer.index] != null){

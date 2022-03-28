@@ -2,6 +2,7 @@ var socket;
 
 function setup(){
     socket = io('https://cgrozzombies.herokuapp.com/', { transports : ['websocket'] });
+    //socket = io('localhost:3000');
     connectedUsersData = [];
     currentBullets = [];
     enemiesData = [];
